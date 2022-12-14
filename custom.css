@@ -1,0 +1,21 @@
+blockquote p::first-line {
+  word-spacing: 1px;
+  font-size: 12px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+p:has(> img) {
+  font-size: 12px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+#content:after {
+  content: "Copyright \00a9  Joakim Johansson 2022";
+  font-size: 12px;
+  font-style: italic;
+  float: right;
+  margin-top: 30px;
+  margin-right: 100px;
+}

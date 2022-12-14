@@ -1,0 +1,9 @@
+[book]
+authors = ["Joakim Johansson"]
+language = "en"
+multilingual = false
+src = "src"
+title = "High adventures"
+
+[output.html]
+additional-css = ["./custom.css"]
