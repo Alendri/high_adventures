@@ -1,3 +1,5 @@
+#thai-airways #traveling/flying #story/to-thailand-with-thai
+
 # To Thailand With Thai
 
 This was a doozy of an adventure! Incompetence, feedback avoidance, hilariously unplanned pandemonium through inconsideration, dry food and awesome footrests.

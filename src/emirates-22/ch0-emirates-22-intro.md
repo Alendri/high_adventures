@@ -1,3 +1,5 @@
+#emirates #aircraft/a380 #traveling/flying #story/flying-big-finally
+
 # Flying big, finally
 
 The A380, majestic beast that it is has never trafficked any route I've flown. That is until I required a last minute flight to Thailand and Emirates came up as a competitive price alternative with two stops.

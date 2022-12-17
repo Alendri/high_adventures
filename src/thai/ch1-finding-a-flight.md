@@ -1,3 +1,5 @@
+#booking #story/to-thailand-with-thai
+
 # Finding a flight
 
 Even now, years after my initial contact with their support the website www.thaiairways.com still doesn't work with ad-blockers properly. The website does not always show the flight search form on the start page and once you finally find the search form the results do not open.  
@@ -5,9 +7,9 @@ Even now, years after my initial contact with their support the website www.thai
 The first time I came across this it took me a good little while to figure out what was going on and was finally studying the flights suggested for my dates. Mind you I was also doing this by all other search engines and carrier websites I know of for comparison.  
 This was during still fairly stringent covid related rules so one reason to fly with Thai was a direct flight to Phuket which let me skip any covid headaches during layover.
 
-### Dietery restrictions
+### Dietary restrictions
 
-Payment and such went without a problem, if a bit slow. However I was unable to find anywhere to inform them of my dietery restrictions during the booking process so I wrote an email to their reserveration staff. I notified them of my allergies to eggs, fish (incl seafood) and nuts and requested meals without those ingredients.
+Payment and such went without a problem, if a bit slow. However I was unable to find anywhere to inform them of my dietary restrictions during the booking process so I wrote an email to their reservation staff. I notified them of my allergies to eggs, fish (incl seafood) and nuts and requested meals without those ingredients.
 
 > Excerpt from my email to reservation
 > The response I got was written in another language from the one I used in my email; my email was in English and the response in Swedish. This is not a problem for me as I speak Swedish, however it seems like a bad assumption to make on your service representatives part.
@@ -20,7 +22,7 @@ The response left me a bit confused, nut-free meals were confirmed but made no m
 ### Technical aside
 
 Their website simply has bad design choices overall, if you are a serious company you would not limit your core website functionality with practices which are caught behind ad blockers. Another point of bad design choices would be that even without ad-blockers you may well need to scroll the website down before the search fields are visible.  
-They also open a separate window to display the search results, which in this day and age is a very outdated practice and can trip up even a seasoned user. That window may well get hidden behind the browser and not noticed, it is also not brought to the front if the user attemts another search in the hopes that doing it a second time will reveal the search results.
+They also open a separate window to display the search results, which in this day and age is a very outdated practice and can trip up even a seasoned user. That window may well get hidden behind the browser and not noticed, it is also not brought to the front if the user attempts another search in the hopes that doing it a second time will reveal the search results.
 
 I already informed them of the ad-blocker problem with their website years earlier, even included an unrelated bug fix I found while poking around their source files. At the time I was booking a flight for another person and after figuring out the problem and noticing other non-ad-blocker related issues I wrote an email to all addresses I could find on the website. Still haven't got a response and they still haven't fixed any of the issues I commented on.
 

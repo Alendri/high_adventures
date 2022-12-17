@@ -1,7 +1,10 @@
 # A collection of adventures
 ### Unintentionally hilarious, unexpected, terrifying and utterly unplanned
+
 &nbsp;
-A few short stories from traveling.
+
+A few short stories I have found myself part of.
+
 &nbsp;
 
 &nbsp;

@@ -1,2 +1,2 @@
-# high_adventures
+# README
 A place sharing for stories

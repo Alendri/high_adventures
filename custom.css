@@ -19,3 +19,9 @@ p:has(> img) {
   margin-top: 30px;
   margin-right: 100px;
 }
+
+main > p:nth-child(1) {
+  font-size: 10px;
+  font-style: italic;
+  float: right;
+}

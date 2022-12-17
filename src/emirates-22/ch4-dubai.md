@@ -1,34 +1,31 @@
-# Shoutout to the between-jobs accountant
+#dubai #traveling/flying #airport/dxb #story/flying-big-finally
+# Arrival at DXB
 
-## Finally up to temperature
-After the hours of walking I was finally up to temperature and rather hungry. I filled up my thermos with water from a drinking fountain and headed to gate C20 which I had passed many times and only ever saw a single person at. Once there I slumped on one of the many benches, ate the last of my second baguette, read my book a bit and contemplated hibernation.
-My body and mind was exhausted and I was not sure I would wake up from my alarm even at the relatively quiet gate C20, the circadian laws hitting me hard. This was not the moment to fall asleep.
+Out of the flight I was feeling uneasy, restless and tired all at once. But mostly still cold and feeling the associated affliction of involuntary bouts of shivering. However I probably looked on par with most other people exiting a long flight, apart maybe from those folks subsidizing my economy ticket by paying significantly more for a first class ticket.
 
-When I existed the gate area I noticed there were far fewer people in general. I consulted the departure screens, a large wave of departures had taken place. Many of the travelators were empty and my mind started flirting with ideas of running along them, arms flailing and screaming as if hunted by a lion. Or better yet walking the opposite direction pretending to be stuck at that spot until someone noticed me and started a commotion.
+The very slight warm air currents of the airport was a very welcome change to the freezing gale of the last few hours. I set of towards the security check point and was soon in the concourse beyond. My flight would not leave for many many hours and the announcement screens did not extend close to long enough to show my flight.
 
-Not tired enough to listen to the tiny voices in my head I decided this would be my moment to find someone to talk to, surely there would be some other people around that wouldn't mind some company - or at least some idle chatting.  
-I started doing another lap of B-C terminals and quickly found my selfassigned task might not be as easy as I had thought. Most people were sleeping - probably waiting for the next big wave of departures just like myself. Those that were not sleeping were glued to their phones. Disturbing someone who might be in a video chat or watching a movie didn't feel right, find someone reading a book instead, disturbing that feels more acceptable somehow. 
+New airport. How many terminals are there? Which would be the expected for me? Are the toilets nice? Do the toilets have bum guns? What time is it? Where should I go?
 
-On more than one occasion I reflected I may be the only one at that airport that reads books. 45 minutes in to prowling it finally happened, I spotted a fellow reader in the distance and better yet they were looking up from their book. I immediately changed course, almost walking in to the path of one of the golf carts constantly ferrying people round the terminals.  
-After the cart had departed my new path I saw the reader had put the book in their carry-on and were looking with a firm gaze at the nearby gate announcement screen which now read "boarding". I slowed and sure as poop in my babys midday diaper a few seconds later they departed their seat and headed toward the gate.
+There was a fork in the road at the announcement screens, one way towards Terminals B and C and one towards A and D. I had no clue where to go. I decided to go in the direction most people were heading. Very quickly those people dispersed, it was probably not my way.  
+Spotted a gentlemen sporting a vest, shirt and slacks answering questions from a few also seemingly lost passengers. Approaching I extended my half empty boarding card. The card had of course been printed at my port of departure many hours earlier when no gates or boarding times were known. The destination and time of departure was enough for the man to say _"I do not know the gate, wait to see gate on the screens."_, but he quickly added _"This terminal, it will depart from this terminal. Go back up the escalators and walk away from security exit."_  
 
-If anyone was observing me I am sure I visibly exuded my disappointment before I set my mind straight to not dwel on it. After another half lap of the two terminals I said "screw it!" to myself and vyed to approach anyone that looked talkative. Maybe someone using a computer rather than a phone, or maybe a group at one of the restaurant.  
-A few steps later a lone girl sitting in one of the otherwise deserted restaurants. She was staring rather intently at a screen, but there was no flickering of fast moving movie scenes reflected at her face, and she had not spoken. She was probably reading! GO GO GO!  
+Confirmed. I had chosen the wrong path at the junction, heading towards the transfers to Terminal A instead of staying in B-C building. Now I knew where to prowl. And prowl I did. Walking up and down both sides of the very long B-C concourse. Looking for secluded spots with presumably less frequented toilets and hopefully peaceful spots for a rest. 
 
-## Thank you for keeping me company
-"Would you mind some company?" I asked while approaching her table.  
-"Yes", she replied while seemingly indicating that she meant "No". I froze, my tired mind was not sure exactly how to proceed - Supid opening line in a place where people are tired and might not natively speak english!  
-She probably noticed my momentary hesitation and indicated more clearly to a chair, queue "woop-woop", "woohoo" and other happy noises inside my head.
+Being the middle of the night I found the lights of the shops, stalls and billboards to be exceptionally bright in the terminal. Eye-wateringly so, children in strollers averting their gaze rather than being fascinated by the brilliance is probably as good an indication of too bright as anything.
 
-Turns out she had been working in the financial sector, recently quit her job and before her next gig started up she was going to visit her sister. A sister who - by international airport destination measurements - lived not far from my port of origin, now what's the chance of that I wonder.  
-I have a feeling I rambled on a lot and didn't nearly ask her enough questions, but then again she might have been put off by being questioned in public by a stranger too much. It was lovely to have a break from walking and this young lady from Vietnam through Hong Kong now working in Singapore spent the next two hours conversing.
+![Bright signs at DXB](images/dxb_bright_sign_a.jpg)
+Bright signs at Dubai airport.
 
-Once her flight was coming up she excused herself and I almost fell getting out my chair. After the inaction of the previous flight, hours of more or less constant walking and then sitting for two hours cramps hit my calfs with fierceness the likes I have seldomly felt.  
-Considerable effort was spent to not show this stranger of my wobbly legs and borderline tears. I waved and thanked her for the company and studiously pointed my toes in the opposite direction to minimize any chance of an awkward side-by-side walk after saying goodbye. Not that my lower legs permitted anything other than a slow stagger at that moment.  
-My left big toe also started pinging my brain for attention, blister coming up probably.
+![More bright signs at DXB](images/dxb_bright_sign_b.jpg)
+More bright signs at Dubai airport.
 
-The fart I had been holding in quickly made itself known after a few steps, though the rumbling might indicate more than just some methane. My calfs were happy for the travelators as I made my way to the secluded toilets I had scouted out earlier. I muttered to myself that someone must have put an extra brick or three in my bag while I was chatting, I slumped on the procelin throne as my knees almost gave out.
+All in all I walked about eight and half laps around the B-C concourse during the nine hours I was there that night. The concourse felt really long, I guessed around a kilometer half lap. With the google maps measurement tools I estimate that the length I walked from end to end is 1.65km, for a total of more than 14 kilometers walking not including detours and zigzags between shops, toilets and impressive windows overlooking the airport aprons. This would explain what happened next and the blisters I found the next day.
 
-## Final moments before boarding m
 
-Feeling far lighter afterwards I stretched in the dimly lit terminal extension, accutely aware that there were people sleeping under and behind the rows of seats along the walls.
+![Info column at DXB](images/dxb_info_column.jpg)
+Pillar or column, column probably, a perfectly fine column... with a decided lack of information, contrary to its appearance.
+
+![Everything so shiny at DXB](images/dxb_so_shiny.jpg)
+Left to terminal B, right to the rest of terminal C. Very very shiny.
+
