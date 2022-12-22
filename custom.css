@@ -9,6 +9,10 @@ blockquote p::first-line {
   font-style: normal;
 }
 
+.content p {
+  line-height: 1.8em;
+}
+
 p:has(> img) {
   font-size: 12px;
   font-weight: bold;

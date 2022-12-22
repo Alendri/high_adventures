@@ -7,3 +7,10 @@ title = "High adventures"
 
 [output.html]
 additional-css = ["./custom.css"]
+
+[output.html.playground]
+editable = false         # allows editing the source code
+copyable = false          # include the copy button for copying code snippets
+copy-js = false           # includes the JavaScript for the code editor
+line-numbers = false     # displays line numbers for editable code
+runnable = false          # displays a run button for rust code
