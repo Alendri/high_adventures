@@ -24,10 +24,17 @@ p:has(> img) {
   margin-right: 100px;
 }
 
+main {
+  position: relative;
+  padding-top: 15px;
+}
+
+/* <p> which preceeds a <h1> inside <main> is for tags. */
 main p:has(+ h1) {
   font-size: 12px;
   font-style: italic;
-  float: right;
   opacity: 0.7;
-  margin-top: -15px;
+  margin-top: -5px;
+  position: absolute;
+  right: 30px;
 }
