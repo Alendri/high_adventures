@@ -22,6 +22,7 @@ More bright signs at Dubai airport.
 
 All in all I walked about eight and half laps around the B-C concourse during the nine hours I was there that night. The concourse felt really long, I guessed around a kilometer half lap. With the google maps measurement tools I estimate that the length I walked from end to end is 1.65km, for a total of more than 14 kilometers walking not including detours and zigzags between shops, toilets and impressive windows overlooking the airport aprons. This would explain what happened next and the blisters I found the next day.
 
+_And now that we are caught up with what happened before I started looking for strangers to engage in conversation lets continue..._
 
 ![Info column at DXB](images/dxb_info_column.jpg)
 Pillar or column, column probably, a perfectly fine column... with a decided lack of information, contrary to its appearance.

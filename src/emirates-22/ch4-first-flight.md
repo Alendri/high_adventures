@@ -1,9 +1,7 @@
 #emirates #aircraft/777 #story/flying-big-finally
 
 # First flight
-
-## Embarkation
-_What is wrong with the seat in front, why are the supports so weird?_ Oh well, it does not matter, I am in the aisle seat so I got slightly larger than usual footwell.
+_What is wrong with the seat in front, why are the supports so weird?_ Oh well, it does not matter, I am in the aisle seat so I got slightly larger than usual footwell. In fact _Yay_!
 
 How naïve I turned out!
 
@@ -41,7 +39,7 @@ leaving one footwell for each passenger in the row behind.
 |    |    ||    |    |
 
 On the two Emirates aircraft I have traveled with the center four seats
-had only four supports. Spaced more or less evenly between the seats.
+had only four supports. Spaced more or less evenly between the aisles.
   ___  ___  ___  ___
 ||:::||:::||:::||:::||
 ||   ||   ||   ||   ||
@@ -81,20 +79,18 @@ When the cabin started settling down I waved one of the crew over and informed t
 > To be serious for a minute; this is a big red flag for me. That a company choses to not offer nut free alternatives is their choice, however when the staff and crew is not informed of the request they will try to feed said passengers with food which is known to possibly contain the very allergen the passenger was trying to avoid. _Not cool!_  
 > This also prepared me for the fact they had almost certainly not relayed the information to my final flight, which was purchased through Emirates but conducted by Bangkok Airways.
 
-As I mentioned in my feedback to Emirates I was indeed offered an instant noodle cup and fruits by the amazing cabin crew and requested to confirm that it would be acceptable. I can only assume this was supposed to be the lunch of one of the cabin crew. Thank you however gave up their food for me, hopefully you enjoyed the impromptu inflight meal replacement!  
-Once meal service started I was treated to the noodle cup, it was delicious. Together with part of a baguette I was very satisfied.
+The delicious noodle cup. Might have been my sense of satisfaction with having once again being proven right that the crew would indeed fix what management seems incapable of - or possibly just hunger - but that noodle cup was fantastic together with part of a baguette. As I mentioned in my feedback to Emirates I was offered an instant noodle cup and fruits by the amazing cabin crew and requested to confirm that it would be acceptable. I can only assume this was supposed to be the lunch of one of the cabin crew. Thank you however gave up their food for me, hopefully you enjoyed the impromptu inflight meal replacement!  
 
 ## The blizzard
-
+This flight took off in November from Scandinavia, a season and place for thick jackets and other winter apparel. On this flight it seemed mandatory for passengers occupying some seats to have brought not only those jackets but the other paraphernalia as well. The gentleman next to me quickly put on his very thick jacket, greatly increasing his volume. Whereby my own allotted space shrank even more.  
+Soon he was wearing the provided blanket as well. And for the first time ever I had to wrap myself in my blanket as well. The central air conditioning of this Emirates Boeing 777 seems to have some spots in the aircraft which receive far more of the cool air than other. The seats around mine had passengers wearing jackets and often blankets up to their necks. Me and many others multiple times reached up to see if our personal air outlet was accidentally open, it never was.  
+Just a few rows away most had only a blanket, and often only over their legs. Towards the end of the flight I was blowing hot air over my hands as I would on a frosty Swedish morning while waiting for the bus. I was even asking for tea mostly so I could clasp the warm cup.  
 
 ## A hurry to get off... the aircraft
-Shivering from cold and weariness after a long flight with no sleep I waited to see how people behaved for disembarking this time. You never know, might be ordered, civilized and unhurried this time. _Haha, we all know that is never true._  
+Shivering from cold and weariness after a long flight with no sleep I waited to see how people would behave when disembarking this time. You never know, might be ordered, civilized and unhurried this time. _Haha, we all know that is never true._  
 We landed smoothly and soon taxied along the long taxiways of Dubai airport. After a minute or three some passengers who started to get out of their seats and reaching for the overhead bins. _Why folks? WHY would you do that?_  
 One of the lovely cabin crew came on the intercom and reminded everyone to please remain seated with the seatbelts fastened until the aircraft has come to complete stop at the gate and the seatbelts sign has been switched off. A minute later we came to a gentle stop.
 
 It was as if the start gun at an Olympic event had gone off. The rattle of belt buckles opening could rival a tommy gun for frequency and ferocity. Seemingly half the passengers hurriedly got out of their seats. Either everyone decided to not pay attention or simply ignored the fact that we were stopped on a taxiway and the massive terminal was still far in the distance.
 
 The crew member came on again and loudly called out for everyone to wait until the seatbelt sign had been turned off. The exasperation in her voice was palpable for anyone paying attention, no matter the language. This time she also repeating the message in Swedish, our flight origin had been Sweden after all.
-
-> Excerpt from my feedback to Emirates  
-> Overall the staff was absolutely fantastic but the aircraft did not live up to expectations and the large gentleman sitting next to me in an even larger jacket either kicking my feet or leaning on me made this shivering experience memorable for all the wrong reasons. I do not in any way blame this man, he was a victim of circumstances created by Emirates choice in interior, not any maliciousness.

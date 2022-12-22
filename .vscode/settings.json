@@ -6,5 +6,8 @@
   ],
   "spellright.language": [
     "en"
+  ],
+  "foam.files.ignore": [
+    "book/**/*"
   ]
 }
