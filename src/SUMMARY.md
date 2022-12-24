@@ -24,5 +24,6 @@
 &nbsp;
 
 [Lime green](./limegreen.md)
+[Morning musings #1 - The morning toilet break](./morning-musings-01.md)
+[Morning musings #2 - The cowbell that wakes me up]()
 [Always some left in the bottle]()
-[The cowbell that wakes me up]()
