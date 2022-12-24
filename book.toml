@@ -6,7 +6,7 @@ src = "src"
 title = "High adventures"
 
 [build]
-build-dir = "pub"
+build-dir = "docs"
 
 [output.html]
 additional-css = ["./custom.css"]
