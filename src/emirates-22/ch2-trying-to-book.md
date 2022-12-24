@@ -1,4 +1,4 @@
-#booking #traveling/flying #story/flying-big-finally
+#booking #traveling/flying #story/flying-big-finally #allergy #support
 
 # Trying to book
 The adventure started already when I made up my mind on the trip and desired to finalize the booking. I picked my desired seat among the few remaining using all the rules I've constructed over the years. In this case my preferred seats were not available for either Emirates flight, but also not the worst. The price and date were far more important in this case. Make it happen!  

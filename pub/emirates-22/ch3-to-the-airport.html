@@ -1,0 +1,219 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>To the airport - High adventures</title>
+        <!-- Custom HTML head -->
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href=".././custom.css">
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../preamble.html">A collection of adventures</a></li><li class="chapter-item expanded affix "><li class="part-title">Traveling</li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.</strong> To Thailand With Thai</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">1.1.</strong> Finding a flight</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.2.</strong> Boarding</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.3.</strong> Nut fright</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.4.</strong> Approaching HKT</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.5.</strong> Filing feedback</div></li></ol></li><li class="chapter-item expanded "><a href="../emirates-22/ch0-emirates-22-intro.html"><strong aria-hidden="true">2.</strong> Flying big, finally</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../emirates-22/ch1-speaking-with-strangers.html"><strong aria-hidden="true">2.1.</strong> The hours of layover</a></li><li class="chapter-item expanded "><a href="../emirates-22/ch2-trying-to-book.html"><strong aria-hidden="true">2.2.</strong> Trying to book</a></li><li class="chapter-item expanded "><a href="../emirates-22/ch3-to-the-airport.html" class="active"><strong aria-hidden="true">2.3.</strong> To the airport</a></li><li class="chapter-item expanded "><a href="../emirates-22/ch4-first-flight.html"><strong aria-hidden="true">2.4.</strong> First flight</a></li><li class="chapter-item expanded "><a href="../emirates-22/ch5-dubai.html"><strong aria-hidden="true">2.5.</strong> Arrival at DXB</a></li><li class="chapter-item expanded "><a href="../emirates-22/ch6-second-flight.html"><strong aria-hidden="true">2.6.</strong> Second flight</a></li><li class="spacer"></li></ol></li><li class="chapter-item expanded "><li class="part-title">Parenting</li><li class="chapter-item expanded affix "><a href="../limegreen.html">Lime green</a></li><li class="chapter-item expanded affix "><div>Always some left in the bottle</div></li><li class="chapter-item expanded affix "><div>The cowbell that wakes me up</div></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">High adventures</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <p>#traveling/bus #story/flying-big-finally #traveling/flying #airport/arn</p>
+<h1 id="to-the-airport"><a class="header" href="#to-the-airport">To the airport</a></h1>
+<p>It was bloody early. Long before the moons domain ended. Too early! First goal was to make the airport bus departing from the bus aprons of the central train station at 05:40. This is the time of day when even the city bus drivers are still asleep. Walking it was, at 05:00 in November, in Scandinavia. Cold.</p>
+<p>Thankfully I have learnt how convenient it can be to travel with a backpack as main luggage. This was another moment proving it, walking would not pose problem for this traveler. I threaded the carryon backpack over my shoulders and across my chest, groaned while getting accustomed to its weight pulling me forward and shouldered the big luggage on the intended way - sandwiching myself between my precious carryon and the massive heap of baby clothes compressed in to my hiking backpack. Stepped in to my dress shoes - dress to impress and all that - which are easier to take off and put on than my usual boots. After all there was an expected minimum of three security checks and several flights over the next day and a half.</p>
+<p>All mittens, caps and other winter paraphernalia were left behind, I was headed tropical after all. A wind breaker with a hood on top of a shirt would have to do. Excitement to be on the way hit and an unconsciously high walking pace follow. Together with being sandwiched between two heavy backpacks the feared cold turned in to welcome whiffs of fresh air. The bus stop soon was ahead of me and the station clocks showed I had walked quickly indeed, too quickly.<br />
+Wait wait wait.</p>
+<h2 id="airport-transfer-bus"><a class="header" href="#airport-transfer-bus">Airport transfer bus</a></h2>
+<p>I had enjoyed the fresh early morning air. Apparently my fellow passengers with rolling luggage, thick jackets and mittens had not felt the same and requested the driver turn up the heat. Which he did, with a vengeance.<br />
+The calf positioned close to the heating element of the bus was soon feeling the burn forcing a relocation of the carryon backpack in between the offending calf and superheated rail. Might explain why some of the pristine bananas I packed earlier were not as happy a few hours later. were s It was soon hotter than my equatorial destination was going to be, ridiculous.</p>
+<p>By the time we stopped at the single stop between my embarkation and the destination airport I was red faced and utterly thankful to quickly take a few steps outside to cool myself and breathe some fresh air.<br />
+Consuming some of the brought food was good and with forced focus almost half the work I had planned for the day was done by the time we pulled up to the airport.</p>
+<p><img src="images/bus_to_airport.jpg" alt="Arriving at the airport" />
+Airport bus arriving at the airport.</p>
+<h2 id="airport-chaos"><a class="header" href="#airport-chaos">Airport chaos</a></h2>
+<p>There was none.</p>
+<p>I had been warned, seen the news clips of overcrowded check-in halls and security lines stretching outside terminal doors. The shops and restaurants which had been closed my previous trips had opened up again and people were milling about as if the pandemic had never occurred.<br />
+Of course I had taken an extra early bus to the airport to follow the airline suggested check-in time of three hours before departure and to counter any sudden reappearance of snow chaos which had plagued half the country the previous few days.</p>
+<p>All in all I was early, very early. The departure boards did not list the check-in desks to be used yet. Thankfully the check-in desks did open at three hours before the flight. I suppose most people would not have read the fine print the way I do and might not know or not care about the suggested three hour check-in, because there were surprisingly few people stomping in the queue at that time and I was quickly on my way to the security point.</p>
+<p>My metal thermos cup had been questioned in security before - maybe especially since I tend to stuff all the charging cables in there when unused. This time I knew to open the lid, place it in the tray next to the laptop and phone so it can be inspected easily. I was <em>not</em> going to be the one to hold up the line this time.<br />
+But of course I was. I did everything from no liquids, belt, laptop to thermos correctly. Except I had a pack of <em>Fisherman's friend</em> in my pocket which made the security agent stop me two steps out of the scanner and ask me what was in my pockets.<br />
+<em>&quot;Nothing&quot;</em> was my response which elicited exasperated eyes from the agent.<br />
+<em>&quot;Please empty your right pocket&quot;</em> were the next words uttered.<br />
+<em>IDIOT! What do you have in your pocket?!</em> went through my head for the split second before my fingers made sense of what I was now fishing out of my pocket.</p>
+<h2 id="the-departure-discussions"><a class="header" href="#the-departure-discussions">The departure discussions</a></h2>
+<p>Soon let through and requested to always empty my pockets before security in the future. Put on my belt and packed my bag as quickly as I could while minding my motions so as to not appear as if the encounter had rattled me in any way. Which - if anything - probably made me more suspicious than anything else.</p>
+<p>There is a little restaurant in the departure area where they have sandwiches acceptable to my allergy afflicted body. As per usual I headed there, but unlike usual it was an order of four baguettes.<br />
+<em>&quot;Wow, you are very hungry&quot;</em> the clerk jokingly commented as she rang me up on the till.<br />
+In hindsight I should have made it five. But I had already spent a lot of money on this ticket and was now forced to buy expensive airport food to feed myself on the flights.<br />
+<em>&quot;I am a bit hungry, but actually the airline has decided to not feed me on my flights because of my nut allergies and their support suggested I bring my own food. So here I am, with full price tickets buying lots of expensive food in the airport because my carryon weight limit and size restrictions did not allow me to pack six meals.&quot;</em> which stopped the clerk their tracks.<br />
+As soon as the words stopped coming out my month I realized it had been an involuntary reaction of annoyance seeing how much I would have to pay. Their expression was hard to read, it might have been disbelief that an airline would do that or maybe she thought I was remarking on the joke. Not wanting them to believe their joke had offended me I added <em>&quot;Oh, so sorry to offload on you like that. I was very surprised with the reputation of Emirates could not manage nut free meals and it has soured my mood.&quot;</em></p>
+<p>They held up their hand in a motion to stop, then turned around and grabbed a banana from the nearby fruit bowl and handed it to me together with the baguettes. While paying and giving my most sincere gratitude some other patrons caught my eye. It as now around lunch time and half a baguette and a pear would be my lunch.<br />
+As I rummaging my bad for the laptop, charger and pear the person I had noticed after myself in the queue walked up <em>&quot;It is amazing that they cannot give you anything on a flight, not even fruit?&quot;</em><br />
+There were a number of people who had heard or now heard about my misfortune. Many gasps of surprise were uttered when they heard it concerned Emirates, their excellent reputation creates expectations. It turned in to a bit of a horror-stories-of-flying moment with several people sharing horrifying experiences at the hands of airlines.</p>
+<blockquote>
+<p>Excerpt from my feedback to Emirates<br />
+... At the sandwich shop they joked I must be very hungry when ordering four until I told them Emirates would not feed me for my long flights and I was forced to buy food inside the airport, since there was no way I could fit that much food and my personal carryon luggage within the 7kg limit. At which point they offered me additional free fruits while shaking their heads. The exchange sparked a conversation between people around the shop for the next several few minutes.</p>
+</blockquote>
+<blockquote>
+<p>Excerpt from Emirates customer service response<br />
+Regarding the suggestion of bringing your own food onboard and your comment that such food would be included in the 7kgs carryon allowance you had, I am confident that the weight of the food you would bring onboard would not exceed 1 or 2Kgs, for the entire journey.</p>
+</blockquote>
+<p>In the end about half the time I had expected to work ended up on the talking-trash slip of the time sheet. But that would not be a problem, there were hours of flights and layovers left to make up for it.</p>
+<p><img src="images/arn_snow_clearing.jpg" alt="Airport snow clearing convoy" />
+Snow clearing convoy at Arlanda airport.</p>
+<p><img src="images/arn_emirates_777_arrival.jpg" alt="Emirates 777 taxiing at ARN" />
+Emirates 777 taxiing to the gate, my first flight of the trip was approaching.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../emirates-22/ch2-trying-to-book.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="../emirates-22/ch4-first-flight.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../emirates-22/ch2-trying-to-book.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="../emirates-22/ch4-first-flight.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+    </body>
+</html>

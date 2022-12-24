@@ -1,0 +1,238 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Trying to book - High adventures</title>
+        <!-- Custom HTML head -->
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href=".././custom.css">
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../preamble.html">A collection of adventures</a></li><li class="chapter-item expanded affix "><li class="part-title">Traveling</li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.</strong> To Thailand With Thai</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">1.1.</strong> Finding a flight</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.2.</strong> Boarding</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.3.</strong> Nut fright</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.4.</strong> Approaching HKT</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.5.</strong> Filing feedback</div></li></ol></li><li class="chapter-item expanded "><a href="../emirates-22/ch0-emirates-22-intro.html"><strong aria-hidden="true">2.</strong> Flying big, finally</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../emirates-22/ch1-speaking-with-strangers.html"><strong aria-hidden="true">2.1.</strong> The hours of layover</a></li><li class="chapter-item expanded "><a href="../emirates-22/ch2-trying-to-book.html" class="active"><strong aria-hidden="true">2.2.</strong> Trying to book</a></li><li class="chapter-item expanded "><a href="../emirates-22/ch3-to-the-airport.html"><strong aria-hidden="true">2.3.</strong> To the airport</a></li><li class="chapter-item expanded "><a href="../emirates-22/ch4-first-flight.html"><strong aria-hidden="true">2.4.</strong> First flight</a></li><li class="chapter-item expanded "><a href="../emirates-22/ch5-dubai.html"><strong aria-hidden="true">2.5.</strong> Arrival at DXB</a></li><li class="chapter-item expanded "><a href="../emirates-22/ch6-second-flight.html"><strong aria-hidden="true">2.6.</strong> Second flight</a></li><li class="spacer"></li></ol></li><li class="chapter-item expanded "><li class="part-title">Parenting</li><li class="chapter-item expanded affix "><a href="../limegreen.html">Lime green</a></li><li class="chapter-item expanded affix "><div>Always some left in the bottle</div></li><li class="chapter-item expanded affix "><div>The cowbell that wakes me up</div></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">High adventures</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <p>#booking #traveling/flying #story/flying-big-finally #allergy #support</p>
+<h1 id="trying-to-book"><a class="header" href="#trying-to-book">Trying to book</a></h1>
+<p>The adventure started already when I made up my mind on the trip and desired to finalize the booking. I picked my desired seat among the few remaining using all the rules I've constructed over the years. In this case my preferred seats were not available for either Emirates flight, but also not the worst. The price and date were far more important in this case. Make it happen!<br />
+I noticed a distinct lack of customization options during the booking processes. Especially any way of specifying my food requirements. This led me to googling emirates and food choices which told me I would be able to specify meal choice after logging in and managing my booking after it has been made. At this point I was not able to find anything regarding dietary restriction requests and assumed that it would be similar to most other airlines. How wrong I would turn out to be.</p>
+<p>Got as far as paying, after entering my payment details I was greeted with a message &quot;Unable to contact payment services. Please try again.&quot; and that ended my first attempt.<br />
+Not put down I redid the entire booking again, however the seats I had previously selected now showed as occupied. Most likely reserved by my previous booking attempt which would still be pending. This time I got further, the web-browser redirected to the payment service but just showed a spinner and after 10 minutes of waiting I closed the tab.</p>
+<p>Doubtful but might be a problem with my browser, as a software developer I do have some weird settings after all. Third attempt - using another browser with no blockers and relaxed security settings - third seat choice. Stuck in the payment processing again. At this point even the wife heard my noises of frustration and despair across the apartment. <em>Take my money already!</em><br />
+Fourth attempt half an hour later showed one of two flights as only having priority seats remaining. This annoyed me and I decided to wait a bit more to see if my preferred seats would be released from my previous pending attempts.</p>
+<p>Got on with my day and a bit later the idea of using their App to make the booking popped up, might yield better results. Downloaded the Emirates App and found the prices had changed a bit since last check with a neighboring day now being cheaper. Much better seat selection was also available. Make it happen!<br />
+This time everything worked flawlessly and my booking was paid for and confirmed within minutes.</p>
+<blockquote>
+<p>Recommended shorts regarding seat choices<br />
+<a href="https://www.youtube.com/shorts/KHk0u8PCS4w">@jeenie.weenie excellent view on picking aisle seats</a><br />
+<a href="https://www.youtube.com/shorts/mcONHeYZqEI">@jeenie.weenie picking economy seats</a> </p>
+</blockquote>
+<h2 id="apparently-food-is-difficult"><a class="header" href="#apparently-food-is-difficult">Apparently food is difficult</a></h2>
+<p>Fantastic! Going to my daughter! Airbus A380 flight from Dubai to Bangkok woohoo! Emirates!</p>
+<p>Time to login and select my meal. After some fumbling I found the meal options which allowed me to select among some predefined choices. However even squinting did not make any special request box appear where I could inform them of my allergies. This was a surprise.<br />
+Maybe they just want to you to contact their support so that they can make sure they understand my request. Might just be the secret to their stellar reputation.</p>
+<p>Before contacting support I scoured the meal options page and did find a note that there are <em>no nut free options</em> available. <strong>Uh oh</strong>!</p>
+<blockquote>
+<p>Excerpt from my feedback to Emirates<br />
+When booking my tickets I was surprised there were no options regarding food preferences or requests at all. After googling I found I was required to login to manage my booking and meal preferences. Only then is it made clear that nut-free options are not available.</p>
+</blockquote>
+<p>Surely this was not true, surely they can get me some of those cups of fruits that you usually get for breakfast on flights. Or a vegan option without nuts. Something, right?<br />
+Time to contact support.<br />
+The support seemed offline during the Sunday afternoon when the booking was made. Early next day the support chat was promptly available. </p>
+<pre><code>Form the chat with Emirates support - names stripped for privacy of their employee
+
+00:02:59 [Me]: Hi, I would like to request nut free meals for my flights 
+with booking [number] *******.
+
+00:03:45 [Me]: When managing my booking I am able to select specific meals,
+however not able to specify my allergies which are eggs, fish (seafood) and nuts.
+
+00:03:55 [Them]: I'm afraid we cannot gaurentee a nut free meal for you on our flights
+
+// For a few minutes I suggested alternatives such as fruits.
+
+00:07:48 [Them]: We dont currently have a fruit alternative, we can book a
+vegitarian or vegan meal for you but we cannot gaurentee that it will be 
+free of nut based products  
+
+00:08:33 [Them]: I request that you carry your own meal onboard  
+</code></pre>
+<p><strong>WHAT?!</strong> <em>I request that you carry your own meal onboard</em>. What?!</p>
+<pre><code>// Continued discussions. I request compensation and they shut me down completely.
+
+00:12:07 [Me]: Can I get a letter stating that some of my carryon weight is food
+for multiple flights because you are unable to provide that for me?
+
+00:13:47 [Me]: This is a practical problem now for me, because I have belongings
+with me that tally roughly to the limit of your carryon limit, and you are forcing 
+me to choose my belongings or food.
+
+00:18:41 [Them]: I understand that this puts you in a difficult situation, but
+I dont believe we can increase your baggage
+
+00:21:58 [Me]: In that case thank you for being honest with me, if very unhelpful. ...
+</code></pre>
+<p>I had achieved nothing. Well, I had informed them of my allergies as the chat log shows.</p>
+<p>In the past I have had last minute booked flights where special meal requests were not able to be fulfilled because they must be filed a certain number of days beforehand.<br />
+Every single time the amazing cabin crew of any concerned flight has solved it, checking ingredients of the food, getting fruits if nothing is available. Giving me early choice between the meal options so I can pick one that works for me.<br />
+With Emirates I was sure this would be the case as well so I was not too worried. Just very disappointed. However I suspected the prospect of hot food was out of the question with them explicitly stating nothing nut-free would be available.</p>
+<p>I really wish they would have informed me of this policy before or during the booking, not after. I would probably have chosen another carrier.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../emirates-22/ch1-speaking-with-strangers.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="../emirates-22/ch3-to-the-airport.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../emirates-22/ch1-speaking-with-strangers.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="../emirates-22/ch3-to-the-airport.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+    </body>
+</html>

@@ -1,0 +1,204 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>The hours of layover - High adventures</title>
+        <!-- Custom HTML head -->
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href=".././custom.css">
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../preamble.html">A collection of adventures</a></li><li class="chapter-item expanded affix "><li class="part-title">Traveling</li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.</strong> To Thailand With Thai</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">1.1.</strong> Finding a flight</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.2.</strong> Boarding</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.3.</strong> Nut fright</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.4.</strong> Approaching HKT</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.5.</strong> Filing feedback</div></li></ol></li><li class="chapter-item expanded "><a href="../emirates-22/ch0-emirates-22-intro.html"><strong aria-hidden="true">2.</strong> Flying big, finally</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../emirates-22/ch1-speaking-with-strangers.html" class="active"><strong aria-hidden="true">2.1.</strong> The hours of layover</a></li><li class="chapter-item expanded "><a href="../emirates-22/ch2-trying-to-book.html"><strong aria-hidden="true">2.2.</strong> Trying to book</a></li><li class="chapter-item expanded "><a href="../emirates-22/ch3-to-the-airport.html"><strong aria-hidden="true">2.3.</strong> To the airport</a></li><li class="chapter-item expanded "><a href="../emirates-22/ch4-first-flight.html"><strong aria-hidden="true">2.4.</strong> First flight</a></li><li class="chapter-item expanded "><a href="../emirates-22/ch5-dubai.html"><strong aria-hidden="true">2.5.</strong> Arrival at DXB</a></li><li class="chapter-item expanded "><a href="../emirates-22/ch6-second-flight.html"><strong aria-hidden="true">2.6.</strong> Second flight</a></li><li class="spacer"></li></ol></li><li class="chapter-item expanded "><li class="part-title">Parenting</li><li class="chapter-item expanded affix "><a href="../limegreen.html">Lime green</a></li><li class="chapter-item expanded affix "><div>Always some left in the bottle</div></li><li class="chapter-item expanded affix "><div>The cowbell that wakes me up</div></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">High adventures</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <p>#dubai #traveling/flying #airport/dxb #story/flying-big-finally</p>
+<h1 id="the-hours-of-layover"><a class="header" href="#the-hours-of-layover">The hours of layover</a></h1>
+<h2 id="finally-up-to-temperature"><a class="header" href="#finally-up-to-temperature">Finally up to temperature</a></h2>
+<p>After the hours of walking I was finally up to temperature and rather hungry. I filled up my thermos with water from a drinking fountain and headed to gate C20 which I had passed many times and only ever saw a single person at. Once there I slumped on one of the many benches, ate the last of my second baguette, read my book a bit and contemplated hibernation.<br />
+My body and mind were exhausted and I was not sure I would wake up from my alarm even at the relatively quiet gate C20, the circadian laws hitting me hard. This was not the moment to fall asleep.</p>
+<p>When I exited the gate area I noticed there were far fewer people in general. I consulted the departure screens, a large wave of departures had taken place. Many of the travellators were empty and my mind started flirting with ideas of running along them, arms flailing and screaming as if hunted by a lion. Or better yet walking the opposite direction pretending to be stuck at that spot until someone noticed me and started a commotion.</p>
+<p>Not tired enough to listen to the voices in my head I decided this would be my moment to find someone to talk to, surely there would be some other people around that wouldn't mind some company - or at least some idle chatting.<br />
+I started doing another lap of B-C terminals and quickly found my self assigned task might not be as easy as I had thought. Most people were sleeping - probably waiting for the next big wave of departures just like myself. Those that were not sleeping were glued to their phones. Disturbing someone who might be in a video chat or watching a movie didn't feel right, find someone reading a book instead, disturbing that feels more acceptable somehow.</p>
+<p>On more than one occasion I reflected I may be the only one at that airport that reads books. 45 minutes in to prowling it finally happened, I spotted a fellow reader in the distance and better yet they were looking up from their book. I immediately changed course, almost walking in to the path of an oncoming golf cart. They were many and constantly ferrying people round the terminal.<br />
+After the cart had departed my new path I saw the reader had put the book in their carry-on and were looking with a firm gaze at the nearby gate announcement screen which now read &quot;boarding&quot;. I slowed and sure as poop in my baby's midday diaper a few seconds later they departed their seat and headed toward the gate.</p>
+<p>If anyone was observing me disappointment would have been apparent before I set my mind to not dwell on it. After another half lap of the two terminals I said <em>Screw it!</em> to myself and vied to approach anyone that looked talkative. Maybe someone using a computer rather than a phone, or maybe a group at one of the restaurants.<br />
+A few steps later a lone girl sitting at a table for four at an otherwise deserted restaurant caught the corner of my eye. She was staring rather intently at a screen but there were no flickering lights of moving movie scenes directed at her face, and she had not spoken. She was probably reading! <em>GO GO GO!</em></p>
+<p><img src="images/dxb_restaurant.jpg" alt="Restaurant at DXB" />
+Almost deserted restaurant at DXB.</p>
+<h2 id="shoutout-to-the-between-jobs-accountant"><a class="header" href="#shoutout-to-the-between-jobs-accountant">Shoutout to the between-jobs accountant</a></h2>
+<p><em>&quot;Would you mind some company?&quot;</em> I asked while approaching her table.<br />
+<em>&quot;Yes&quot;</em>, she replied while seemingly indicating that she meant <em>&quot;No, I wouldn't mind&quot;</em>. I froze, my tired mind was not sure exactly how to proceed - Stupid opening line in a place where people are tired and might not natively speak English!<br />
+She probably noticed my momentary hesitation and indicated more clearly to a chair. Queue &quot;whoop-whoop&quot;, &quot;woohoo&quot;, &quot;yea!&quot; and other happy noises inside my head.</p>
+<p>Turns out she had been working in the financial sector, recently quit her job and before her next gig started up she was going to visit her sister. A sister who - by international airport destination measurements - lived not far from my port of origin, now what's the chance of that I wonder.<br />
+I have a feeling I rambled on a lot and didn't nearly ask her enough questions, but then again she might have been put off by being questioned in public by a stranger too much. It was lovely to have a break from walking and this young lady from Vietnam through Hong Kong now working in Singapore spent the next two hours conversing.</p>
+<p>Once her flight was coming up she excused herself. I almost fell getting out my chair while getting up from the chair because after the inaction of the previous flight, hours of more or less constant walking and then sitting for two hours cramps hit my calves with fierceness the likes I have seldom felt.<br />
+Considerable effort was spent to not show this stranger of my wobbly legs and beads of sweat threatening to appear. I waved and thanked her for the company and studiously pointed my toes in the opposite direction to minimize any chance of an awkward side-by-side walk after saying goodbye. Not that my lower legs permitted anything other than a slow stagger at that moment.<br />
+My left big toe also started pinging my brain for attention, blister coming up probably.</p>
+<p>The gasses I had been harboring in my guts quickly made their volume and whereabouts known after a few short steps, though the rumbling might indicate more than just some methane. My calves were grateful for the travellators as I made my way to the secluded toilets I had scouted out earlier. The bad had seemingly gained weight during my chat, a voice in my head spoke up sarcastically to tell me <em>&quot;Maybe the girl had secretly dumped a bunch of contraband in my bag while I was chatting&quot;</em>. Once at the porcelain throne my knees felt weak and I sat heavily with a sigh.</p>
+<h2 id="final-moments"><a class="header" href="#final-moments">Final moments</a></h2>
+<p>Feeling far lighter afterwards I stretched quietly in the dimly lit terminal extension, acutely aware that there were people sleeping under and behind the rows of seats along the walls. I refilled my thermos and while stowing it back in my backpack I noticed the sorry state of the last remaining banana, the one gifted to me at the departure lounge at the start of my travels an eternity earlier. The banana had clearly suffered gashes, nudges and poking by the other bag contents and the feet of my shoulder friend of the previous flight. The bruising told me it was probably time to eat it or risk banana mush in the future. It was delicious.</p>
+<p>After the chat, toilet break, impromptu banana and realizing just how many hours I had managed to lose I found myself reinvigorated and the remaining time to boarding seemed positively tiny by comparison.</p>
+<p>Another lap and half around the B-C departure concourses went by before I told myself it was enough, quarter of an hour remaining before the boarding was to commence. The horde of people at the departure area for the gate spilled out in to the concourse. </p>
+<p>I dutifully waited, we're all getting on the same aircraft after all. Besides, my tired mind was not feeling like bustling elbow to elbow with the other patrons at that moment. In this case spoils really did go the patient, because while others had lined up in a long winding queue I just sat back on the now empty chairs next to the boarding desks. Only moments later they opened another desk, which went unnoticed by everyone bustling in queue. When I locked eyes with the boarding agent they were happy to wave me over, presumably hoping that more people would notice and follow my lead.</p>
+<p>Being the first time at Dubai airport and the first time boarding an A380 I was almost run over as I walked slowly trying to decipher which arm to use to enter the aircraft. The voice in my head piped up again <em>&quot;Go to the wrong one so you have a reason to tour the entire plane!&quot;</em>.</p>
+<p><em>Before we continue let me take you back to what had happened up to that point...</em></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../emirates-22/ch0-emirates-22-intro.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="../emirates-22/ch2-trying-to-book.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../emirates-22/ch0-emirates-22-intro.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="../emirates-22/ch2-trying-to-book.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+    </body>
+</html>

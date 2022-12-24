@@ -5,6 +5,9 @@ multilingual = false
 src = "src"
 title = "High adventures"
 
+[build]
+build-dir = "pub"
+
 [output.html]
 additional-css = ["./custom.css"]
 
