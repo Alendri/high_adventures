@@ -18,6 +18,7 @@
   - [First flight](emirates-22/ch4-first-flight.md)
   - [Arrival at DXB](emirates-22/ch5-dubai.md)
   - [Second flight](./emirates-22/ch6-second-flight.md)
+  - [Final leg](./emirates-22/ch7-final-leg.md)
 
 ----------------
 # Parenting

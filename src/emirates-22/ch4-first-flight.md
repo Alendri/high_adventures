@@ -16,11 +16,11 @@ Next came the class clown. I based this judgement purely on tall lank frame of t
 
 Then there was the good looking young couple, still with hope in their eyes. New love? The two middle seats next to me were still unoccupied, they would probably care more about themselves than me. _If I have to have elbow buddies it will hopefully be them._ They stopped a few rows short.
 
-Two kids came barreling down the chute next. They might be a split family! More or less a worst case if they come to me. Those kids were old enough to sit by themselves in an airline sense. But any reasonable adult knows the age where they really can not be trusted to open an airline meal on their own, much less do everything required else required during a flight.  
-They slowed down when they reached the toilets behind me and turned to look for their parents. The parents were halfway along, carrying a lot of luggage and one toddler each. Generally I do not care about babies and toddlers on planes, I have noise cancelling headphones after all. But two children and two toddlers on two adults for six hours, _No No No, not near me!_ The parents stopped almost at the beginning of the cabin section. _Oh the relief!_
+Two kids came barreling down the chute next. They might be a split family! A worst case if they come to me! Those kids were old enough to sit by themselves in an airline sense, however any reasonable adult knows the age where they really can not be trusted to open an airline meal on their own, much less do everything required else required during a six hour flight.  
+They slowed down when they reached the toilets behind me and turned to look for their parents. The parents were halfway along, carrying a lot of luggage and one toddler each. Generally I do not care about babies and toddlers on planes, I have noise cancelling headphones after all. But two children and two toddlers on two adults for all those hours, _No No No, not near me!_ The parents stopped almost at the beginning of the cabin section. _Oh the relief!_
 
 ## The unaligned seat supports
-Getting a sore elbow from leaning out in to the aisle like the tower of Pisa I withdrew the e-book reader from my luggage under the seat in front and spent the next few minutes with my eyes glued to it. The flow of people diminished and hope was setting in; I might be seated next to one of the very few empty seats of the flight.  
+Getting a sore elbow from leaning out in to the aisle like the tower of Pisa I withdrew the e-book reader from my luggage under the seat in front and spent the next while enjoying the story. The flow of people diminished and hope was infringing on my mind; I might be seated next to one of the very few empty seats of the flight!  
 Curiously the two last rows of two seats each along the outside of the aircraft were empty. If someone does sit next to me I will check if I can swap to one of those rows instead, this will be a great, I got options even! Again I was being short-sighted and in this case seemingly even near-sighted too I would soon find out.  
 
 Then he was upon me. A large elderly gentleman with a slightly unsteady walk. Motioning that he had the seat next to me. After he had squeezed down in his seat and I got back in to mine he already had his leg in my footwell pushing against my carryon. _What is going on? Oh right. The weird chair supports._  
@@ -50,6 +50,10 @@ had only four supports. Spaced more or less evenly between the aisles.
 
 Now imagine sitting in one of the middle two seats as the gentleman was. People average or above in size will be forced to angle their outer leg in to the footwell of the seat outside or swivel their entire body in towards the center resulting in their back now being slightly turned to the passenger sitting outside, ME. This is exactly where we found ourselves for the next six hours.  
 This man would either encroach on my legs or lean sideward over the elbow rest on to me. There was never a time when one of the two were not true.
+
+During one of the times a toilet visit was required by my neighbor he stumbled a bit while trying to get out and reached out involuntarily. I do not mind helping and stood my ground. Unfortunately he snagged my shirt pocket and slightly tore the fabric around the pockets stitches. I felt it, it was an accident and it was already done - I let it go and did not mention it even if it soured my mood further. The man did not notice I am sure.
+
+The pocket had long endured abuse by a baby that has found it amusing beyond belief to hide and retrieve the pacifier from said pocket while riding on my arm. The fact it has not ripped off completely a long time ago is more surprising than anything.
 ## The empty seats
 Before getting ahead of the story let me share another slightly weird design choice.  
 Those empty window seats were looking very attractive, to me and many others. However the gentleman next to me was very much more motivated than myself and did not want to wait for the embarking to even finish and asked me if he could get out to switch seats. I obliged and removed myself from his path.  
