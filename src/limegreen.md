@@ -2,8 +2,8 @@
 
 # Lime green
 
-_"Banana yellow, banana! *baby noises* Lime-green daddy daddy! Daddy! Lime-green!"_ she loudly exclaimed from the top of my shoulders.  
-I replied _"Yes, you are right, a lime-green car!"_ while trying to contain my chuckle at my own shortsightedness.
+_"Banana yellow, banana! &nbsp;-_&nbsp; baby noises &nbsp;_-&nbsp; Lime-green daddy daddy! Daddy! Lime-green!"_ she loudly exclaimed from the top of my shoulders.  
+I replied _"Yes, you are right, a lime-green car!"_ while trying to contain a chuckle at my own shortsightedness.
 
 ### A few hours earlier
 _"Ok, we can watch one more Magic Fingers video,"_ I said, _"but only one more. Then we have to go to school."_
