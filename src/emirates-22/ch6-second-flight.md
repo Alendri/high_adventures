@@ -22,7 +22,7 @@ Cabin width: 6.58 meters (main deck)
 
 As early as felt decent I requested the attention of crew and and again explained about my allergies. Unsurprisingly again I was greeted by a questioning face; they had not been informed.
 
-> Excerpt from my feedback to Emirates support
+> Excerpt from my feedback to Emirates support  
 > As I now expected [the crew member] had also not heard about my allergies and were very confused as to what to do and told me "just to be sure don't eat any food". Again she told me that she would see what she could find, maybe fruits from business class.
 
 ## Shoutout, this time to the teacher

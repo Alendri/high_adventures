@@ -10,7 +10,7 @@ Wait wait wait.
 
 ## Airport transfer bus
 I had enjoyed the fresh early morning air. Apparently my fellow passengers with rolling luggage, thick jackets and mittens had not felt the same and requested the driver turn up the heat. Which he did, with a vengeance.  
-The calf positioned close to the heating element of the bus was soon feeling the burn forcing a relocation of the carryon backpack in between the offending calf and superheated rail. Might explain why some of the pristine bananas I packed earlier were not as happy a few hours later. were s It was soon hotter than my equatorial destination was going to be, ridiculous.
+The calf positioned close to the heating element of the bus was soon feeling the burn forcing a relocation of the carryon backpack in between the offending calf and superheated rail. Might explain why some of the pristine bananas I packed earlier were not as happy a few hours later. It was soon hotter in my bus than my equatorial destination was going to be, ridiculous.
 
 By the time we stopped at the single stop between my embarkation and the destination airport I was red faced and utterly thankful to quickly take a few steps outside to cool myself and breathe some fresh air.  
 Consuming some of the brought food was good and with forced focus almost half the work I had planned for the day was done by the time we pulled up to the airport.

@@ -1,15 +1,8 @@
 # Summary
 
-[A collection of adventures](./preamble.md)
+[Preamble](./preamble.md)
 
 # Traveling
-
-- [To Thailand With Thai]()
-  - [Finding a flight]()
-  - [Boarding]()
-  - [Nut fright]()
-  - [Approaching HKT]()
-  - [Filing feedback]()
 
 - [Flying big, finally](./emirates-22/ch0-emirates-22-intro.md)
   - [The hours of layover](emirates-22/ch1-speaking-with-strangers.md)
@@ -21,6 +14,13 @@
   - [Final leg](./emirates-22/ch7-final-leg.md)
 
 ----------------
+
+# Programming
+- [Treris]()
+  - [First sprites]()
+  - [Palettes]()
+
+----------------
 # Parenting
 &nbsp;
 
@@ -28,3 +28,4 @@
 [Morning musings #1 - The morning toilet break](./morning-musings-01.md)
 [Morning musings #2 - The cowbell that wakes me up]()
 [Always some left in the bottle]()
+

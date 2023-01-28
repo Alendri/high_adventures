@@ -1,5 +1,5 @@
 # A collection of adventures
-### Unintentionally hilarious, unexpected, terrifying and utterly unplanned
+### Unintentionally hilarious, unexpected and terrifying, and some programming
 
 &nbsp;
 
