@@ -76,7 +76,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="preamble.html">Preamble</a></li><li class="chapter-item expanded affix "><li class="part-title">Traveling</li><li class="chapter-item expanded "><a href="emirates-22/ch0-emirates-22-intro.html"><strong aria-hidden="true">1.</strong> Flying big, finally</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="emirates-22/ch1-speaking-with-strangers.html"><strong aria-hidden="true">1.1.</strong> The hours of layover</a></li><li class="chapter-item expanded "><a href="emirates-22/ch2-trying-to-book.html"><strong aria-hidden="true">1.2.</strong> Trying to book</a></li><li class="chapter-item expanded "><a href="emirates-22/ch3-to-the-airport.html"><strong aria-hidden="true">1.3.</strong> To the airport</a></li><li class="chapter-item expanded "><a href="emirates-22/ch4-first-flight.html"><strong aria-hidden="true">1.4.</strong> First flight</a></li><li class="chapter-item expanded "><a href="emirates-22/ch5-dubai.html"><strong aria-hidden="true">1.5.</strong> Arrival at DXB</a></li><li class="chapter-item expanded "><a href="emirates-22/ch6-second-flight.html"><strong aria-hidden="true">1.6.</strong> Second flight</a></li><li class="chapter-item expanded "><a href="emirates-22/ch7-final-leg.html"><strong aria-hidden="true">1.7.</strong> Final leg</a></li><li class="spacer"></li></ol></li><li class="chapter-item expanded "><li class="part-title">Programming</li><li class="chapter-item expanded "><div><strong aria-hidden="true">2.</strong> Treris</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">2.1.</strong> First sprites</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">2.2.</strong> Palettes</div></li><li class="spacer"></li></ol></li><li class="chapter-item expanded "><li class="part-title">Parenting</li><li class="chapter-item expanded affix "><a href="limegreen.html">Lime green</a></li><li class="chapter-item expanded affix "><a href="morning-musings-01.html">Morning musings #1 - The morning toilet break</a></li><li class="chapter-item expanded affix "><div>Morning musings #2 - The cowbell that wakes me up</div></li><li class="chapter-item expanded affix "><div>Always some left in the bottle</div></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="preamble.html">Preamble</a></li><li class="chapter-item expanded affix "><li class="part-title">Traveling</li><li class="chapter-item expanded "><a href="emirates-22/ch0-emirates-22-intro.html"><strong aria-hidden="true">1.</strong> Flying big, finally</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="emirates-22/ch1-speaking-with-strangers.html"><strong aria-hidden="true">1.1.</strong> The hours of layover</a></li><li class="chapter-item expanded "><a href="emirates-22/ch2-trying-to-book.html"><strong aria-hidden="true">1.2.</strong> Trying to book</a></li><li class="chapter-item expanded "><a href="emirates-22/ch3-to-the-airport.html"><strong aria-hidden="true">1.3.</strong> To the airport</a></li><li class="chapter-item expanded "><a href="emirates-22/ch4-first-flight.html"><strong aria-hidden="true">1.4.</strong> First flight</a></li><li class="chapter-item expanded "><a href="emirates-22/ch5-dubai.html"><strong aria-hidden="true">1.5.</strong> Arrival at DXB</a></li><li class="chapter-item expanded "><a href="emirates-22/ch6-second-flight.html"><strong aria-hidden="true">1.6.</strong> Second flight</a></li><li class="chapter-item expanded "><a href="emirates-22/ch7-final-leg.html"><strong aria-hidden="true">1.7.</strong> Final leg</a></li><li class="spacer"></li></ol></li><li class="chapter-item expanded "><li class="part-title">Programming</li><li class="chapter-item expanded "><a href="treris/ch0-the-idea.html"><strong aria-hidden="true">2.</strong> Treris</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="treris/ch1-first-sprites.html"><strong aria-hidden="true">2.1.</strong> First sprites</a></li><li class="chapter-item expanded "><a href="treris/ch2-palettes.html"><strong aria-hidden="true">2.2.</strong> Palettes</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">2.3.</strong> The prototype</div></li><li class="spacer"></li></ol></li><li class="chapter-item expanded "><li class="part-title">Parenting</li><li class="chapter-item expanded affix "><a href="limegreen.html">Lime green</a></li><li class="chapter-item expanded affix "><a href="morning-musings-01.html">Morning musings #1 - The morning toilet break</a></li><li class="chapter-item expanded affix "><div>Morning musings #2 - The cowbell that wakes me up</div></li><li class="chapter-item expanded affix "><div>Always some left in the bottle</div></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -471,6 +471,152 @@ What if my luggage had an even worse fate than me and did not make it?</p>
 <p> </p>
 <p><img src="emirates-22/images/thailand.jpg" alt="Beach in Thailand" />
 Destination reached.</p>
+<div style="break-before: page; page-break-before: always;"></div><p>#rust #coloring #treris #pixel-art #bevy #macroquad #</p>
+<h1 id="treris"><a class="header" href="#treris">Treris</a></h1>
+<p>After coloring in a book with my toddler during Christmas - <em>read finding crayon marks all over the wall</em> - I had an idea of making a coloring application for touch screen devices.</p>
+<p>There are plenty of those already on phones already, but none made by me and most of them are very boring. An hour of research told me most are either too complicated for a toddler or too boring for anyone older.</p>
+<p>I am also interested in learning more about <a href="http://www.rust-lang.org">Rust</a> - the programming language. The game engine <a href="https://bevyengine.org/">Bevy</a> has also caught my attention, their ECS philosophy is interesting to me so I wanted to learn how to use it as well.<br />
+I decided to challenge myself by making a prototype of my idea in 10-15 hours to see if it would be a fun project to continue.</p>
+<p> </p>
+<h3 id="this-is-the-story-of-making-treris"><a class="header" href="#this-is-the-story-of-making-treris">This is the story of making Treris.</a></h3>
+<p> </p>
+<p><em>Warning: Some of the Treris texts may be technical in nature.</em></p>
+<p> <br />
+ <br />
+ <br />
+ </p>
+<h2 id="concept"><a class="header" href="#concept">Concept</a></h2>
+<p>The basic concept was to use Rust and the game engine Bevy to create an app which allows selecting a <em>Palette</em> and applying it to a sprite drawn on screen.</p>
+<p>In essence you are picking colors and what to color, not drawing the colors yourself.<br />
+Where is the fun in that? you may rightfully ask.<br />
+When observing my toddler I do not believe they would be very happy to see things move, learn about what things are called and make things come to life. Rather than struggle to color a specific area of something.</p>
+<p>With that in mind I wanted;</p>
+<ul>
+<li>To use a front-top Pixel Art style, inspired by <a href="https://www.kickstarter.com/projects/chefrpg/chef-rpg">Chef RPG</a> and <a href="https://www.stardewvalley.net/">Stardew Valley</a> and many others.</li>
+<li>The world to be alive, possibly by having some animations.</li>
+<li>There should be support for multiple hues, so just because you choose to make the house Yellow it doesn't have to all be the same yellow.</li>
+<li>I wanted the world to possibly be computer generated, so you don't pick a single &quot;Image&quot; to color in. Rather it should be a dynamic whacky whimsical messy world.</li>
+<li>You should be able to affect the world. Add things, especially moving things.</li>
+</ul>
+<p><img src="treris/images/stardew_valley.png" alt="Stardew Valley scene" />
+Pixel art from Stardew Valley. Stardew Valley Copyright © ConcernedApe LLC.</p>
+<p> <br />
+ </p>
+<h3 id="the-prototype-scope"><a class="header" href="#the-prototype-scope">The prototype scope</a></h3>
+<p>As much as I want to see all of the above as a software developer I would like to think I have learnt some lessons. One of those would be to reduce any prototyping to the bare essentials and clearly spell out what the expectations are.</p>
+<p>What I decided on implementing for the prototype;</p>
+<ul>
+<li>Pixel art, made by myself. I have no experience but want to learn.
+<ul>
+<li>A few trees.</li>
+<li>Some flowers.</li>
+<li>A house.
+<ul>
+<li>Window</li>
+<li>Door</li>
+<li>Chimney</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Sprites (tiny images that makes up the art)
+<ul>
+<li>Should use gray scale values which serve as an index in to a color palette.</li>
+<li>Sprite grouping support, so that for example a tree can be three separate sprites stacked on top of each other but act as one.</li>
+<li>3 layers of sprites should be stackable.</li>
+<li>Each layer is independently colorable.</li>
+</ul>
+</li>
+<li>A few basic palettes that can be switched between to prove the concept.</li>
+<li>A world which is created from values in an image, so that it can be manipulated and inspected easily. <em>This also felt like a decent way of sharing worlds in the future and easy enough to have as output from a world generating algorithm if I ever get that far.</em></li>
+<li>The world should be scrollable to give an &quot;endless&quot; feel, even if it isn't.</li>
+</ul>
+<p>Very quickly I found that the documentation for the Bevy engine was a bit limited, I decided to go with something simpler so as to have <em>something</em> to show at my deadline. Instead I went with <a href="https://github.com/not-fl3/macroquad">Macroquad</a> for the prototyping.</p>
+<div style="break-before: page; page-break-before: always;"></div><p>#pixel-art #treris #macroquad #rust #programming</p>
+<h1 id="first-sprites"><a class="header" href="#first-sprites">First sprites</a></h1>
+<p>To have something to work with when programming I first set out to make a tree. A palm tree seemed easiest. It is composed of three separate sprites. Two for the trunk and one for the leaves up top.</p>
+<p><img src="treris/images/first_tree.png" alt="First tree sprite" />
+First tree sprite. Then the result when colorized in the application.</p>
+<p>Next point of order, setup a new Rust project and add some dependencies. I added the Macroquad dependency and started writing code for loading the sprites.<br />
+Very quickly I had sprites loading and drawing to the screen in a grid fashion. At this point it was hardcoded where they were positioned. Next up would be to have some way of loading a &quot;world&quot;, and based on the info within that world pick the correct sprites to draw.</p>
+<h2 id="the-world"><a class="header" href="#the-world">The world</a></h2>
+<p>As I had planned for the prototype I created an image. For anyone unfamiliar with digital images they are represented by pixels, each of which are represented by four values between 0 and 255;</p>
+<ul>
+<li>Red</li>
+<li>Green</li>
+<li>Blue</li>
+<li>Alpha (transparency)</li>
+</ul>
+<p>Each pixel in the image would represent one square in a grid in the application. Each of the four values would represent one layer, so I can stack up to four layers of images in one square.</p>
+<h3 id="a-tree-example"><a class="header" href="#a-tree-example">A tree example</a></h3>
+<p>To make a tree I would for example decide that;<br />
+<code>palm tree trunk bottom</code> has <code>Green 1</code>,<br />
+<code>palm tree trunk top</code> has <code>Green 2</code> and<br />
+<code>palm tree leaves</code> has <code>Blue 1</code>.</p>
+<p>In the world image I would then pick a spot and set the pixel value to <code>R0 G1 B0 A0</code> and then the pixel above it to <code>R0 G2 B1 A0</code>. When Treris loads the world image it will then look at every pixel and split it to <code>Red</code>, <code>Green</code>, <code>Blue</code>, <code>Alpha</code> and draw the matching images.</p>
+<p>In this example it would find one pixel with <code>G1</code> and nothing else, so it will draw the <code>palm tree trunk bottom</code> and above it a pixel with <code>G2</code> and <code>B1</code>, in which case it first draws <code>palm tree trunk top</code> and <code>palm tree leaves</code> on top of it.</p>
+<p><img src="treris/images/world_tree_pixels_rendered.png" alt="Example of palm trees drawn from world image" />
+Top left shows the result of pixel <code>2,4</code> <em>(column 2 and row 4)</em> of the world image. In this example that pixel would have <code>R0 G2 B1 A0</code>. Below it is cell <code>2,4</code> with value <code>R0 G1 B0 A0</code>, representing the <code>palm tree trunk bottom</code>.</p>
+<p>The app considers the world to be a grid, where each cell has one or more layers of sprites based on the color code in the corresponding world image pixel.</p>
+<p><em><strong>Why?</strong></em> Would be an appropriate question at this point.<br />
+The quick is answer is that it is... quick. It allows me to very quickly open my favorite drawing tool, change some colors and have a new world. Game engines of any kind already know how to read and write images so I can leverage the same code for loading a sprite as I do for a world map.</p>
+<p>All of this means I can spend more time on other things when prototyping.</p>
+<p> </p>
+<p><em><strong>But why?</strong></em> Another aspect one might question would be why cut the palm tree trunk in two?</p>
+<p>It makes sense that the leaves and trunk has to be separated, so that they can be colored individually. However the trunk will be the same color.</p>
+<p>By cutting the trunk in two I can make different looking top and bottom pieces, many of them. By randomly picking a top and bottom I can get a great number of variations. As long as the pieces align properly.</p>
+<p><img src="treris/images/sprite_mixing.png" alt="Mixing sprites example" />
+By having two leaves, two trunk top and two trunk bottoms 8 unique palm trees can be created. Here are two examples.</p>
+<p>This of course applies to anything larger than a single tile. For example a house front can be with or without a window, with or without a balcony, with some missing paint or have a door, combining all these would make the houses unique and the world seem more alive.</p>
+<div style="break-before: page; page-break-before: always;"></div><p>#pixel-art #programming #treris #macroquad</p>
+<h1 id="palettes"><a class="header" href="#palettes">Palettes</a></h1>
+<p>The <code>palette</code> system I thought of as a set of related hues of a color, with some possible other colors mixed in too. When the user hits a tile layer sprite the selected <code>palette</code> color can be associated with that layer and its sprite. When drawing the sprite each pixel can be compared with the associated <code>palette</code> and the correct color used instead of the gray scale.</p>
+<p><img src="treris/images/blue_palette.png" alt="Blue palette" />
+An example of a blue palette, going from light to dark blues and slightly different hues.</p>
+<pre><code>Technical note
+
+For any programmer reading this the actual tile texture is created when any of its
+layers change; all layers sprite are colored and then composited. There is only ever
+none or one 64x64px texture per tile and the updates are only done on interaction.
+
+The pen textures mentioned below are generated on startup, never recreated and 
+referenced as necessary.
+
+So far even with a ridiculously large world with every tile filled with maximum 
+number of layers the only thing changing is a very slightly longer startup time
+when the initial tile sprite layers are composited and saved to gpu memory.
+
+For a prototype I am very happy with the performance.
+</code></pre>
+<h2 id="letting-the-user-pick-the-palette"><a class="header" href="#letting-the-user-pick-the-palette">Letting the user pick the palette</a></h2>
+<p>Now of course the user needs to have a way of selecting which <code>palette</code> they would like to use. For this I created a few versions of a pen. This pen can then be colored with the appropriate <code>palette</code> using the exact same system as for all the other sprites. Again saving my time.</p>
+<p>I tried using the UI system which comes with Macroquad, after two hours I found it frustrating and not easy to combine with my system of coloring oddly shaped pens. It was eating in to my tight prototype deadline so in the end I created my own very basic UI functionality and added a few <code>palette</code>-buttons to the app. The buttons can also have labels on them.</p>
+<p><img src="treris/images/palettes.png" alt="Palette buttons" />
+Three slightly different pen icons to allow changing the looks when the user selects a color. In this case the Yellow is selected, showing color on its tip.</p>
+<h2 id="connecting-the-tiles"><a class="header" href="#connecting-the-tiles">Connecting the tiles</a></h2>
+<p>The eagle eyed reader might have noticed that above described processes would result in the bottom of the palm tree trunk receiving one palette and the top trunk none if the bottom was clicked.</p>
+<p>This lead to the next step, connecting associated tiles.<br />
+The problem to solve in this case is that a tile does not know what any neighboring tile is or if it should be &quot;connected&quot;. To solve this I create lists of sprite codes that should belong together. Then when the user clicks a tile we can check if the sprite is in a list and if so check any surrounding tile for a match in that list.</p>
+<p>If we find surrounding tiles that are part of the same sprite list the same palette should be applied to that tile as well.</p>
+<pre><code>Technical note
+
+When a tile is clicked the surrounding tiles are recursively checked outwards until
+no more matches are found. This results in a group, that group is then saved in a
+hashmap. The hashmap is then consulted on any future clicks to see if a group has
+already been created for the tile/sprite combination.
+
+Inspecting the code a few days later I am sure it doesn't work the way I think.
+But so far it does work. With larger sets of connected tiles bugs might well pop up.
+For now I have supressed the urge to refactor it, it is a prototype!
+
+Saving this small amount of processing to a hashmap is of course complete overkill
+and could easily be done with simpler methods. But since I had to calculate the
+groups anyway it just made sense to save the results.
+
+I have yet to have any connected tile group large enough to even measure the 
+performance. More than fast enough for this usecase with a target of 15-30fps on
+mobile devices, saving as much battery as possible.
+</code></pre>
 <div style="break-before: page; page-break-before: always;"></div><p>#parenting</p>
 <h1 id="lime-green"><a class="header" href="#lime-green">Lime green</a></h1>
 <p><em>&quot;Banana yellow, banana!  -</em>  baby noises  <em>-  Lime-green daddy daddy! Daddy! Lime-green!&quot;</em> she loudly exclaimed from the top of my shoulders.<br />

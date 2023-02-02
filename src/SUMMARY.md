@@ -16,9 +16,10 @@
 ----------------
 
 # Programming
-- [Treris]()
-  - [First sprites]()
-  - [Palettes]()
+- [Treris](treris/ch0-the-idea.md)
+  - [First sprites](treris/ch1-first-sprites.md)
+  - [Palettes](treris/ch2-palettes.md)
+  - [The prototype]()
 
 ----------------
 # Parenting
