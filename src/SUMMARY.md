@@ -20,6 +20,7 @@
   - [First sprites](treris/ch1-first-sprites.md)
   - [Palettes](treris/ch2-palettes.md)
   - [The prototype]()
+- [First Bevy game](falling_b/ch0-the-idea.md)
 
 ----------------
 # Parenting
